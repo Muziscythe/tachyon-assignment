@@ -1,0 +1,15 @@
+.graphWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.graph__iconWrapper {
+  padding: 9px;
+  border: 2px solid lightblue;
+  border-radius: 100%;
+  margin: 0 5px;
+}
+
+.graph__icon {
+  font-size: 1.6rem;
+}

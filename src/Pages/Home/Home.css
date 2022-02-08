@@ -1,0 +1,55 @@
+.home {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeWrapper {
+  height: 500px;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+}
+
+.homeContent {
+  border: 2px solid #3420e9;
+  height: 100%;
+  width: 80%;
+  position: relative;
+  /* max-width: 900px; */
+}
+
+.home__zoomable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 50px);
+}
+
+.zoomIn,
+.zoomOut {
+  width: 50px;
+  height: 50px;
+  background: none;
+  border: 2px solid #3420e9;
+  border-radius: 100%;
+  position: absolute;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.zoomIn:focus,
+.zoomOut:focus {
+  outline: none;
+}
+
+.zoomIn {
+  right: -65px;
+  top: 20px;
+}
+
+.zoomOut {
+  right: -65px;
+  top: 80px;
+}

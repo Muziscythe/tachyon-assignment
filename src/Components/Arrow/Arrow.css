@@ -1,0 +1,17 @@
+.arrow {
+  height: 5px;
+  width: 75px;
+  background-color: darkgray;
+  position: relative;
+}
+
+.arrow__head {
+  width: 0;
+  border-bottom: 12px solid darkgray;
+  border-right: 6px solid white;
+  border-left: 6px solid white;
+  position: absolute;
+  right: 0;
+  top: -3px;
+  transform: rotate(90deg);
+}
